@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         LL = (LinearLayout) findViewById(R.id.LL);
-        LL.setBackgroundColor(Color.YELLOW);
 
     }
 
@@ -110,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         adb.setNegativeButton("reset", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                LL.setBackgroundColor(Color.YELLOW);
+                LL.setBackgroundColor(Color.WHITE);
             }
         });
 
